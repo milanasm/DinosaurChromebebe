@@ -48,7 +48,7 @@ class Game:
 
             instruction1=self.font.render("Press SPACE to jump.",True,(0,0,0))
             instruction2=self.font.render("Press KEY-DOWN to crouch.",True,(0,0,0))
-            instruction3=self.font.render(" Press SPACE to start the game.",True,(0,0,0))
+            instruction3=self.font.render("Press SPACE to start the game.",True,(0,0,0))
 
             self.win.blit(instruction1,instruction1.get_rect(center=(300,120)))
             self.win.blit(instruction2,instruction2.get_rect(center=(300,150)))
